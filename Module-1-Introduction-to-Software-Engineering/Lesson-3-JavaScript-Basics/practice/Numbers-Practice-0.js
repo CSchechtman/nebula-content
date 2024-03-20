@@ -26,7 +26,7 @@ let c = 300 / 100
 console.log(c)
 
 // 7. Increment that variable by 1 using the increment operator.
-c += 1
+c++
 console.log(c)
 
 // 8. Use a multiply assignment operator to change the value of the variable to the product of multiplying it by 5.
