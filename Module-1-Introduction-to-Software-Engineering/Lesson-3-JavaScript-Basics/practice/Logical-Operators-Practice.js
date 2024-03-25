@@ -9,7 +9,7 @@ if(x === 42 || y === 42){
 
 
 // Save your name to a variable called name
-const fName = "Craig"
+// const fName = "Craig"
 // If your name has less than 10 characters then log, 'you'll need more characters!' to the console.
 // console.log(fName.length)
 if(fName.length < 10){
@@ -44,3 +44,17 @@ if(a > b){
 }else{
     console.log('a is equal to b')
 }
+
+let oddOrEven = 6
+let text = (oddOrEven % 2) === 0 ? "The number is even" : "The number is odd"
+console.log(text)
+
+// let containsT = "asdflkjwerops"
+// // console.log(containsT.indexOf("t"))
+// let text = (containsT.indexOf("t")) === -1 ? "The variable doesn't contain the letter t" : "The variable contains the letter t"
+// console.log(text)
+
+let fName = "Craig"
+let lName = "Schechtman"
+let textA = fName === "Craig" && lName === Schechtman ? "That's my name" : "That's not my name"
+console.log(textA)

@@ -25,3 +25,45 @@ switch(position){
     default:
         console.log(`${horseName} did not finish in the top 3.`);
 }
+
+// const grade = "A";
+
+// switch(grade) {
+//     case 'A':
+//       console.log("You're the best");
+//       break;
+//     case 'B':
+//       console.log("Not bad")
+//       break;
+//     default:
+//       console.log("You need to study more")
+//       break;
+//   }
+
+
+  const chores = "done";
+
+  if(chores === "done"){
+    console.log("You get TV time.");
+  } else {
+    console.log("No TV time for you")
+  }
+
+
+
+  let grade = 90
+  if (grade >= 80 && grade <= 100) {
+    console.log("Excellent");
+  } else if (grade >= 60 && grade <= 79) {
+    console.log("OK");
+  } else {
+    console.log("Failed");
+  }
+
+
+let a = 7
+let b = 10
+
+let text = a > b ? "A is greater than b" : "A is less than or equal to b"
+
+console.log(text)

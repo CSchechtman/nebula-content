@@ -27,3 +27,16 @@ console.log(num1 + num2)
   // 7. Create a variable called num3, assign the addition of num1 and num2 to it.
 const num3 = (num1 + num2)
 console.log(num3)
+
+console.log(typeof 10)
+
+// let fName = 'Craig'
+// let lName = ' Schechtman'
+// // let fullName = fName + lName
+// // console.log(fullName)
+
+// console.log(fName.concat(lName))
+
+
+let str = "calculating length in JavaScript is fun"
+console.log(str.length)
