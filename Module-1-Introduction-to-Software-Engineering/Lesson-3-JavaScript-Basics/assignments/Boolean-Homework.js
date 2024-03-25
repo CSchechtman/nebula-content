@@ -80,6 +80,18 @@ console.log(text)
 // The console prints out:
 // Will I win the lottery? Not Likely.
 
+const randomNum = Math.ceil(Math.random() * 5)
+
+switch(randomNum){
+  case 1:
+      console.log(1)
+      break;
+    case 2:
+      console.log(2)
+      break;
+}
+
+
 // BONUS:
 // On the prior example, try and have the answer print like someone is speaking to you.
 
