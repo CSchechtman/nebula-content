@@ -31,3 +31,13 @@ for(let i = 0; i < numberArray.length; i++){
 // // If the current element is a number skip it
 // // Otherwise add the element to an array
 // // After finishing the loop log the new array to the console
+let comboArray = [3, "a", 5, "b", 14, 20, "c", 7, 6, "d", 2, 1, "e", 15];
+let extractArray = [];
+for(i = 0; i < comboArray.length; i++){
+    if(typeof comboArray[i] === "number"){
+        continue;
+    }else{
+        extractArray.push(comboArray[i]);
+    }
+}
+console.log(extractArray)
