@@ -91,14 +91,27 @@ for (i = 0; i < celebrity.length; i++){
 // //  Ex:
 // // // Input:  ['Martha Stewart', 'David Beckham', etc..] 
 // // // Output: ['MARTHA-STEWART', 'DAVID-BECKHAM', etc..]
-
+const upperCaseNames = []
+for (let i = 0; i < celebrity.lengtrh; i++){
+    const celeb = celebrity[i].toUpperCase();
+    const result = celeb.split(" ").join("-")
+    upperCaseNames.push(result)
+}
+console.log(upperCaseNames)
 
 
 // 10.  Index your array to find your favorite celebrity. 
 //      Save that name to a variable
 //      Loop over the array until you find that individual
 //      Log that name to the console and break out of the loop
-
+const fav = celebrity[1]
+for(let i = 0; i < celebrity.length; i++){
+    const celeb = celebrity[i]
+    if(celeb === fav){
+        console.log(celeb)
+        break;
+    }
+}
 
 
 //BONUS:
@@ -107,3 +120,15 @@ for (i = 0; i < celebrity.length; i++){
 // // If an index is divisible by 3 log 'buzz'
 // // If an index is divisible by both 2 & 3, log 'fizz-buzz'
 // // Otherwise print the index to the console
+
+for(let i = 0; i <=30; i++){
+    if(i % 2 === 0 && i % 3 === 0){
+        console.log("fizz-buzz")
+    }else if(i % 2 === 0){
+        console.log("fizz")
+    }else if(i % 3 === 0){
+        console.log("buzz")
+    }else{
+        console.log(i)
+    }
+}
