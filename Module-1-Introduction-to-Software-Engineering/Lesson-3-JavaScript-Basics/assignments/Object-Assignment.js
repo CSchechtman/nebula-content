@@ -51,6 +51,7 @@ car.engine=['320hp', "2.0L VTEC Turbo", "FWD", "6MT"]
 // 8. Create a method for turning your vehicle on
 function startCar(){
     console.log("The car is on");
+    car.isOn = true
 }
 
 car.start = startCar;
@@ -61,11 +62,13 @@ car.start();
 // 9.Create a method for turning your vehicle off
 function stopCar(){
     console.log("The car is off");
+    car.isOn = false
 }
 
 car.stop = stopCar;
 
 car.stop();
+console.log(car)
 
 
 
@@ -77,5 +80,10 @@ car.stop();
 // // e. Check if your vehicle is on (it should be on)
 
 
+if(car.isOn){
+    car.stop()
+}else{
+    car.start()
+}
 
 
