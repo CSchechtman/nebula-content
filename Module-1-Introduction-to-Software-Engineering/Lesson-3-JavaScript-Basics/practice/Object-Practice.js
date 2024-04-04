@@ -68,3 +68,19 @@ const rex = {
 };
 
 rex.age
+
+const student = {
+    fName: 'Craig',
+    lName: 'Schechtman',
+    age: '15',
+    englishGrade: 'A',
+    spanishGrade: 'C',
+    mathGrade: 'A'
+};
+
+function updateStudent(key, value){
+    student.key = value
+    console.log(student.key)
+}
+
+updateStudent("spanishGrade", "A")
