@@ -1,0 +1,6 @@
+- [01-shortest-word](https://www.codewars.com/kata/57cebe1dc6fdc20c57000ac9)
+- [02-bugs-life](https://www.codewars.com/kata/5b71af678adeae41df00008c)
+- [03-highest-lowest](https://www.codewars.com/kata/554b4ac871d6813a03000035)
+- [04-credit-card](https://www.codewars.com/kata/5701e43f86306a615c001868)
+- [05-no-vowels](https://www.codewars.com/kata/52fba66badcd10859f00097e)
+- [06-Hof-series](https://www.codewars.com/kata/582dace555a1f4d859000058)

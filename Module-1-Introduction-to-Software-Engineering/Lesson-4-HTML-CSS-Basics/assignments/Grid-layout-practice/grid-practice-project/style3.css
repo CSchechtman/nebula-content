@@ -1,0 +1,126 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(13, 1fr);
+    gap: 10px;
+    padding: 20px;
+    height: 95vh;
+    width: 75%;
+    margin: auto;
+}
+
+.image {
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.image1 {
+    grid-column: 1 / span 3;
+    grid-row: 1 / span 3;
+    background-image: url('./images/boys1-1x1.png');
+}
+
+.image2 {
+    grid-column: 4 / span 4;
+    grid-row: 1 / 4;
+    background-image: url('./images/boys2-4x3.png');
+}
+
+.image3 {
+    grid-column: 8 / 11;
+    grid-row: 1 / 4;
+    background-image: url('./images/familybiking-1x1.png');
+}
+
+.image4 {
+    grid-column: 1 / span 3;
+    grid-row: 4 / span 4;
+    background-image: url('./images/familymirror-3x4.png');
+}
+
+.image5 {
+    grid-column: 4 / span 4;
+    grid-row: 4 / span 3;
+    background-image: url('./images/jacocraig-4x3.png');
+}
+
+.image6 {
+    grid-column: 8 / span 3;
+    grid-row: 4 / span 3;
+    background-image: url('./images/jacohair-1x1.png');
+}
+
+.image7 {
+    grid-column: 7 / span 4;
+    grid-row: 11 / span 3;
+    background-image: url('./images/jacomouth-4x3.png');
+}
+
+.image8 {
+    grid-column: 5 / span 2;
+    grid-row: 7 / span 2;
+    background-image: url('./images/jacopegs-1x1.png');
+}
+
+.image9 {
+    grid-column: 1 / span 4;
+    grid-row: 8 / span 3;
+    background-image: url('./images/jacotilt-4x3.png');
+}
+
+/* .image10 {
+    grid-column: 5 / span 3;
+    grid-row: 7 / span 4;
+    background-image: url('./images/lulo-3x4.png');
+} */
+
+.image11 {
+    grid-column: 1 / span 3;
+    grid-row: 11 / span 3;
+    background-image: url('./images/rafiblocks-1x1.png');
+}
+
+.image12 {
+    grid-column: 4 / span 3;
+    grid-row: 11 / span 3;
+    background-image: url('./images/ruth1-1x1.png');
+}
+
+.image13 {
+    grid-column: 6 / span 2;
+    grid-row: 9 / span 2;
+    background-image: url('./images/ruth2-1x1.png');
+}
+
+.image14 {
+    grid-column: 8 / span 3;
+    grid-row: 7 / span 4;
+    background-image: url('./images/ruth3-3x4.png');
+}
+.image15 {
+    grid-column: 4 / span 1;
+    grid-row: 7 / span 1;
+    background: #0000FF;        
+}
+.image16 {
+    grid-column: 5 / span 1;
+    grid-row: 9 / span 1;
+    background: #7EC8E3;
+}
+.image17 {
+    grid-column: 5 / span 1;
+    grid-row: 10 / span 1;
+    background: #0000FF;        
+}
+.image18 {
+    grid-column: 7 / span 1;
+    grid-row: 7 / span 1;
+    background: #7EC8E3;
+}
+.image19 {
+    grid-column: 7 / span 1;
+    grid-row: 8 / span 1;
+    background: #0000FF;        
+}
